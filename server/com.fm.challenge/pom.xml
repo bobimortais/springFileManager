@@ -47,7 +47,7 @@
 				<version>2.1.0.RELEASE</version>
             	<configuration>
                 	<fork>true</fork>
-                	<mainClass>com.exb.app.FileServiceApp</mainClass>
+                	<mainClass>com.fm.app.FileServiceApp</mainClass>
             	</configuration>
               	<executions>
                 	<execution>
