@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.exb.gui</groupId>
-  <artifactId>com.exb.gui</artifactId>
+  <groupId>com.fm.gui</groupId>
+  <artifactId>com.fm.gui</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
   <properties>
@@ -37,7 +37,7 @@
 			<version>2.1.0.RELEASE</version>
             <configuration>
                 <fork>true</fork>
-                <mainClass>com.exb.app.FileServiceClientApp</mainClass>
+                <mainClass>com.fm.app.FileServiceClientApp</mainClass>
             </configuration>
               <executions>
                 <execution>
