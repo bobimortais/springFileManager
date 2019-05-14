@@ -40,15 +40,15 @@
 				<td th:text="${element.creationTime}"></td>
 				<td th:text="${element.lastUpdateTime}"></td>
 				<td>
-					<form style="display:inline-block" id="updateFIle" method="POST" action="/update-file">
+					<form class="btn-submit" id="updateFIle" method="POST" action="/update-file">
 						<input type="hidden" th:value="${element.fileName}" name="fileName"/>
 						<input class="btn" type="submit" value="Update">
 					</form>
-					<form style="display:inline-block" id="deleteFile" method="POST" action="/delete-file">
+					<form class="btn-submit" id="deleteFile" method="POST" action="/delete-file">
 						<input type="hidden" th:value="${element.fileName}" name="fileName"/>
 						<input class="btn" type="submit" value="Delete">
 					</form>
-					<form style="display:inline-block" id="download" method="GET" action="/get-file">
+					<form class="btn-submit" id="download" method="GET" action="/get-file">
 						<input type="hidden" th:value="${element.fileName}" name="fileName"/>
 						<input class="btn" type="submit" value="Download">
 					</form>
